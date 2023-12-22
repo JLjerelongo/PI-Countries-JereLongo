@@ -1,0 +1,90 @@
+@import url("https://use.typekit.net/ban8ucn.css");
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+
+.textActivity{
+    z-index: 1;
+    font-family: 'Style Script', cursive;
+    font-size: 5.5rem;
+    position: absolute;
+    left: 38%;
+    border: 3px  black;
+    border-radius: 3px;
+    color: white;
+}
+
+.textActivity2{
+    z-index: 1;
+    font-family: "azo-sans-web", sans-serif;
+    font-weight: 400;
+    font-size: xx-large;
+    position: absolute;
+    top: 19.2%;
+    left: 23%;
+    color: white;
+    border: 3px black;
+    border-radius: 3px;
+}
+
+.activityCreatedContainer{
+    justify-content: center;
+    overflow-y: scroll;
+    align-items: center;
+    background-color: rgba(216, 165, 117, 0.95);
+    width: 45vw;
+    height: 45vh;
+    border-style: dashed;
+    border: 4px dashed rgb(0, 0, 0);
+    position: absolute;
+    top: 40%;
+    left: 27.5%;
+    padding: 1rem;
+}
+
+.activitiesContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hr{
+    height: .1px;
+    width: 100%;
+    background: transparent;
+    border: 2px dashed black;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.nameActivityCreated{
+    font-family: 'Jura', sans-serif;
+    font-weight: 700;
+    position: relative;
+}
+
+.dificultyActivityCreated{
+    font-family: 'Jura', sans-serif;
+    font-weight: 700;
+}
+
+.seasonActivityCreated{
+    font-family: 'Jura', sans-serif;
+    font-weight: 700;
+}
+
+.botonDeleteActivity{
+    color: black;
+    border-width: 5px;
+    border-style: groove;
+    background-color: white;
+    font-family: 'Jura', sans-serif;
+    font-weight: 700;
+    height: 5vh;
+    width: 8vw;
+    cursor: pointer;
+}
+
+.botonDeleteActivity:hover{
+    color: saddlebrown;
+    border-color: saddlebrown;
+}

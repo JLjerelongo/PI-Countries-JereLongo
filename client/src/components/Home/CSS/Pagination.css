@@ -1,0 +1,56 @@
+.paginationContainer{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    justify-content: center;
+    gap: 2rem;
+    height: 10vh;
+    align-items: center;
+}
+
+.botonPage, .izq, .der{
+    width: 1.9rem;
+    height: 1.9rem;
+    border-color: black;
+    border-width: 5px;
+    border-style: groove;
+    background-color: white;
+    font-family: 'Jura', sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.botonPage:hover{
+    border-color: saddlebrown ;
+    color: saddlebrown;
+}
+
+.izq:hover{
+    border-color: saddlebrown ;
+    color: saddlebrown;
+}
+
+.der:hover{
+    border-color: saddlebrown ;
+    color: saddlebrown;
+}
+
+.izq:disabled{
+    border-color: rgb(198, 193, 193);
+    color: grey;
+    cursor: auto;
+    opacity: 0.5;
+}
+
+.der:disabled{
+    border-color: rgb(198, 193, 193);
+    color: grey;
+    cursor: auto;
+    opacity: 0.5;
+
+}
+
+.allButtonsPage{
+    display: flex;
+    gap: 0.1rem;
+}

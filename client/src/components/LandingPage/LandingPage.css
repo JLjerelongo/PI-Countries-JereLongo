@@ -1,0 +1,79 @@
+@import url("https://use.typekit.net/ban8ucn.css");
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300&display=swap');
+
+.landing {
+    background-color: rgb(74, 97, 97);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.videoBackground {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-attachment: fixed;
+}
+
+.boton{
+    color: white;
+    border-color: white;
+    position: relative;
+    bottom: 36%;
+    left: 55%;
+    height: 6vh;
+    width: 15vw;
+    background: none;
+    cursor: pointer;
+    transition: background-color 0.1s ease-in-out;
+    font-family: 'Jura', sans-serif;
+    font-weight: 700;
+}
+
+.boton:hover{
+    transition: background-color 0.1s ease-in-out;
+    background-color: white;
+    color: black;
+    border-color: black;
+}
+
+.titulo{
+    position: absolute;
+    top: 19%;
+    left: 42%;
+    font-family: "azo-sans-web", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    color: white;
+    background-size: contain;
+    text-shadow: 2px 2px 3px black;
+    transform: scale(1.5);
+}
+
+.world{
+    position: absolute;
+    top: 38%;
+    left: 55%;
+    font-size: xxx-large;
+    font-family: "azo-sans-web", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    transform: scale(3.8);
+    color: white;
+    text-shadow: 4px 4px 10px black;
+}
+
+.titulo2{
+    position: absolute;
+    top: 55.5%;
+    left: 52%;
+    font-family: "azo-sans-web", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    transform: scale(1.6);
+    color: white;
+    background-size: contain;
+    text-shadow: 2px 2px 3px black;
+}

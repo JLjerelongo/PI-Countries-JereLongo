@@ -1,0 +1,2 @@
+*.client filter=lfs diff=lfs merge=lfs -text
+client/src/assets/Home/homeVideo.mp4 filter=lfs diff=lfs merge=lfs -text

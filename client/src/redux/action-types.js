@@ -1,0 +1,11 @@
+export const GET_COUNTRIES = 'GET_COUNTRIES';
+export const GET_ACTIVITIES = 'GET_ACTIVITIES';
+export const DELETE_ACTIVITIES = 'DELETE_ACTIVITIES';
+export const ORDER = 'ORDER';
+export const FILTER_CONTINENT = 'FILTER_CONTINENT';
+export const FILTER_ACTIVITY = 'FILTER_ACTIVITY';
+export const SEARCH_COUNTRY = 'SEARCH_COUNTRY';
+export const NEXT = 'NEXT';
+export const PREV = 'PREV';
+export const PAGENUMBER = 'PAGENUMBER';
+export const REFRESHCOUNTRIES = 'RESETCOUNTRIES';

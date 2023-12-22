@@ -1,0 +1,102 @@
+@import url("https://use.typekit.net/ban8ucn.css");
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300&display=swap');
+
+.flagContainer {
+    width: 40vw;
+    height: 60vh;
+    position: absolute;
+    top: 22%;
+    left: 10%;
+    border: 3px whitesmoke;
+    padding: 3%;
+    max-width: 40vw;
+    max-height: 60vh;
+    background-color: rgba(144, 103, 64, 0.9);
+}
+
+.flagContainer img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.info {
+    color: whitesmoke;
+    width: 33vw;
+    height: 45vh;
+    position: absolute;
+    top: 8%;
+    left: 57%;
+    border: 3px  whitesmoke;
+    padding: 1%;
+    max-width: 55vw;
+    background-color: rgb(144, 103, 64, 0.9);
+    font-family: 'Changa', sans-serif;
+}
+
+.activity {
+    justify-content: center;
+    overflow-y: scroll;
+    align-items: center;
+    color: whitesmoke;
+    width: 33vw;
+    height: 35vh;
+    position: absolute;
+    top: 55%;
+    left: 57%;
+    border: 3px  whitesmoke;
+    padding: 1%;
+    max-width: 55vw;
+    font-family: 'Changa', sans-serif;
+    font-size: small;
+    background-color: rgb(144, 103, 64, 0.9);
+}
+
+.notActivity {
+    font-weight: 700;
+    color: whitesmoke;
+    font-family: 'Changa', sans-serif;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.background {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-attachment: fixed;
+    z-index: -1;
+    filter: blur(1.5px);
+}
+
+.botonBack {
+    position: absolute;
+    top: 8%;
+    left: 7%;
+    color: black;
+    border-color: black;
+    border-width: 5px;
+    border-style: groove;
+    background-color: white;
+    font-family: 'Jura', sans-serif;
+    font-weight: 700;
+    height: 5vh;
+    width: 9vw;
+    cursor: pointer;
+}
+
+.botonBack:hover {
+    border-color: saddlebrown;
+    color: saddlebrown;
+}
+
+.hr2 {
+    height: .1px;
+    width: 100%;
+    background: transparent;
+    border: 2px dashed black;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}

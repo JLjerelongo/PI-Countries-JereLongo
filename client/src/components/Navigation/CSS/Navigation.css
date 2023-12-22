@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300&display=swap');
+
+.filter{
+    position: absolute;
+    top: 38%;
+    left: 75.8%;
+    color: black;
+    border-color: black;
+    border-width: 5px;
+    border-style: groove;
+    background-color: white;
+    font-family: 'Jura', sans-serif;
+    font-weight: 700;
+    height: 5vh;
+    width: 9vw;
+    cursor: pointer;
+}
+
+.filter:hover{
+    border-color: saddlebrown ;
+    color: saddlebrown;
+}
+
+.filter:focus{
+    border-color: saddlebrown ;
+}
+
+.filter option{
+    font-weight: bold;
+    color: black;
+}
+
+.filterActivities{
+    position: absolute;
+    top: 38%;
+    left: 66.5%;
+    color: black;
+    border-color: black;
+    border-width: 5px;
+    border-style: groove;
+    background-color: white;
+    font-family: 'Jura', sans-serif;
+    font-weight: 700;
+    height: 5vh;
+    width: 9vw;
+    cursor: pointer;
+}
+
+.filterActivities:hover{
+    border-color: saddlebrown ;
+    color: saddlebrown;
+}
+
+.filterActivities:focus{
+    border-color: saddlebrown ;
+}
+
+.filterActivities option{
+    font-weight: bold;
+    color: black;
+}
+
+.order{
+    position: absolute;
+    top: 38%;
+    left: 85%;
+    color: black;
+    border-color: black;
+    border-width: 5px;
+    border-style: groove;
+    background-color: white;
+    font-family: 'Jura', sans-serif;
+    font-weight: 700;
+    height: 5vh;
+    width: 8vw;
+    cursor: pointer;
+}
+
+.order:hover{
+    border-color: saddlebrown ;
+    color: saddlebrown;
+}
+
+.order:focus{
+    border-color: saddlebrown ;
+}
+
+.order option{
+    font-weight: bold;
+    color: black;
+}
+
+.botonActivity{
+    position: absolute;
+    top: 29.5%;
+    left: 2%;
+    color: black;
+    border-color: black;
+    border-width: 5px;
+    border-style: groove;
+    background-color: white;
+    font-family: 'Jura', sans-serif;
+    font-weight: 700;
+    height: 6vh;
+    width: 10vw;
+    cursor: pointer;
+}
+
+.botonActivity:hover{
+    border-color: saddlebrown ;
+    color: saddlebrown;
+}
+
+.botonActivity:focus{
+    border-color: saddlebrown ;
+}
+
+.botonActivity option{
+    font-weight: bold;
+    color: black;
+}
+
+.botonRefresh{
+    position: absolute;
+    top: 38%;
+    left: 22.4%;
+    color: black;
+    border-color: black;
+    border-width: 5px;
+    border-style: groove;
+    background-color: white;
+    height: 5vh;
+    width: 6vw;
+    cursor: pointer;
+    transition: background-color 0.1s ease-in-out;
+    font-family: 'Jura', sans-serif;
+    font-weight: 700;
+}
+
+.botonRefresh:hover{
+    transition: background-color 0.1s ease-in-out;
+    color: saddlebrown;
+    border-color: saddlebrown;
+}

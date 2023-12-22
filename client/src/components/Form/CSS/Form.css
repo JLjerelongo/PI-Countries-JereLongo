@@ -1,0 +1,174 @@
+@import url("https://use.typekit.net/ban8ucn.css");
+
+.gifContainer {
+    width: 50vw;
+    height: 50vh;
+    position: absolute;
+    left: 24%;
+    top: 35%;
+}
+
+.gifForm {
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.containerForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(216, 165, 117, 0.95);
+    width: 30vw;
+    height: 80vh;
+    border-style: dashed;
+    border: 4px dashed rgb(0, 0, 0);
+    border-radius: 0.2rem;
+    gap: 2.5rem;
+}
+
+.botonCancelar {
+    color: black;
+    left: 44.5%;
+    top: 85%;
+    border-color: black;
+    border-width: 5px;
+    border-style: groove;
+    background-color: white;
+    font-family: 'Jura', sans-serif;
+    font-weight: 700;
+    height: 5vh;
+    width: 8vw;
+    cursor: pointer;
+}
+
+
+.botonCancelar:hover {
+    border-color: saddlebrown;
+    color: saddlebrown;
+}
+
+.backgroundModal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 10;
+}
+
+.buttonsContain {
+    display: flex;
+    flex-direction: row;
+    width: 20vw;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.selectContainer {
+    display: inline-block;
+    height: 3rem;
+    z-index: 10;
+    overflow: visible;
+    position: relative;
+    bottom: 2.5%;
+}
+
+.labelAndEvent {
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    position: relative;
+}
+
+.inputsActivities {
+    all: initial;
+    display: flex;
+    align-items: center;
+    font-family: "azo-sans-web", sans-serif;
+    background-color: rgb(243, 243, 243);
+    height: 2rem;
+    border-radius: 0.2rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    color: rgb(111, 111, 111);
+    border: 2px dashed rgb(0, 0, 0);
+}
+
+.inputsActivities:hover{
+    cursor: pointer;
+}
+
+.activityName, .dificulty, .season{
+    font-family: 'Jura', sans-serif;
+    font-weight: 600;
+    color: rgb(110, 56, 4);
+    font-size: large;
+}
+
+.errors{
+    font-family: 'Jura', sans-serif;
+    font-weight: 600;
+    color: red;
+}
+
+.errorsCountries{
+    font-family: 'Jura', sans-serif;
+    font-weight: 600;
+    color: red;
+    font-size: 0.88rem;
+    transform: scale(1.1);
+    position: relative;
+    bottom: 0.5rem;
+}
+
+.countriesNameContainer{
+    justify-content: center;
+    overflow-y: scroll;
+    align-items: center;
+    height: 2.5rem;
+    border: 2px solid rgb(0, 0, 0);
+
+}
+
+.countriesName{
+    font-family: 'Jura', sans-serif;
+    font-weight: 600;
+}
+
+.hr3{
+    height: 1%;
+    width: 100%;
+    background: transparent;
+    border: 1px dashed saddlebrown;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.botonCreateForm{
+    color: black;
+    border-color: black;
+    border-width: 5px;
+    border-style: groove;
+    background-color: white;
+    font-family: 'Jura', sans-serif;
+    font-weight: 700;
+    height: 5vh;
+    width: 8vw;
+    cursor: pointer;
+}
+
+.botonCreateForm:hover {
+    border-color: saddlebrown;
+    color: saddlebrown;
+}
+
+.botonCreateForm:disabled{
+    border-color: rgb(198, 193, 193);
+    color: grey;
+    cursor: auto;
+}
